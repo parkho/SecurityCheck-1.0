@@ -1,7 +1,9 @@
 //PHP:
 
+<?php
 $rand1 = rand(1, 9);
 $rand2 = rand(1, 9);
+?>
 
 //HTML:
 
