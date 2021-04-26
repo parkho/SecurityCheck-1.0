@@ -16,7 +16,7 @@ $rand2 = rand(1, 9);
 //Jquery to check user's answer. If the answer is correct, as soon as the user move the mouse out of the field, the "Send" button is enabled otherwise it's disabled:
 
 <script>
-$("#ques").on('mouseout', function() {
+$("#ques").keyup(function() {
   var sumques = $("#ques").val();
   var val1 = <?php echo $rand1;?>;
   var val2 = <?php echo $rand2;?>;
