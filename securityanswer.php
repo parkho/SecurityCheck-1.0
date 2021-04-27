@@ -1,8 +1,8 @@
 //PHP:
 
 <?php
-$rand1 = rand(1, 9);
-$rand2 = rand(1, 9);
+$rand1 = mt_rand(1, 9);
+$rand2 = mt_rand(1, 9);
 ?>
 
 //HTML:
